@@ -1,0 +1,4 @@
+# 中間產物（每次 run_all.sh 都會重新產生），只保留結果表
+output/*/*
+!output/*/results.md
+.DS_Store
