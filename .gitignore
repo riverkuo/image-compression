@@ -1,4 +1,6 @@
-# 中間產物（每次 run_all.sh 都會重新產生），只保留結果表
-output/*/*
-!output/*/results.md
+# run_all.sh 產生的檔案（原圖以外都不提交）
+images/original/*
+!images/original/photo.png
+!images/original/graphic.png
+!images/original/white.png
 .DS_Store
